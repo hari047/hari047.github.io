@@ -1,286 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Portfolio of Hari</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    @media (max-width: 559px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
-
-    @media (min-width: 560px) and (max-width: 740px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 700px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 600px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
-
-  </style>
-</head>
+    <title>Hari's Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hari Prasad Rangaraj's Portfolio/Resume">
+    <meta name="author" content="Hari Prasad Rangaraj">    
+    <link rel="shortcut icon" href="#">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+ 
+</head> 
 
 <body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left" src="assets/images/profile2.jpg" alt="HariPrasadR" />
+            <div class="profile-content float-left">
+                <h1 class="name">Hari Prasad Rangaraj</h1>
+                <h2 class="desc">Engineer</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://twitter.com/hari_rang"><i class="fab fa-twitter"></i></a></li>                   
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/hari-rangaraj/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/hari047"><i class="fab fa-github-alt"></i></a></li>                    
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary float-right" href="mailto:harirangaraj97@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>A recent Information Science Engineering graduate with proficiency in C++/Java/Python/SQL programming, Web Application design, and Object-Oriented Software development methodologies.</p><p> A passionate football enthusiast and player. Been playing video games since I was 5 years old, been gaming on PC and PlayStation ever since. That led to my passion towards computer science. I love dogs, have always had
+                                them as a companion through out my life. 
+                            </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://github.com/hari047/Botnet-Detection-Using-ML" target="_blank">Botnet Detection</a></h3>
+                                <p class="summary">Python - Machine Learning</p>
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://en.wikipedia.org/wiki/Botnet" target="_blank">
+                                    <img class="img-fluid project-image" src="assets/images/projects/BOTNET1.jpg" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p> Built a Botnet Detector that applies Deep Learning to assess a data-set and train itself to identify the existence of bots in a network. The data used for analysis included IRC network traffic, previously known bot signatures.
+                                    </p><p> Programmed a flow-based feature in the system that allowed for choice of classification algorithms and their evaluation. The algorithms studied and their reported accuracies are: Boosted Trees (82.2%), Random Forest (78%) and Logistic Regression (60.85%).
+                                        </p>
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="https://github.com/hari047/Botnet-Detection-Using-ML" target="_blank"><i class="fab fa-github-alt"></i> Project on GitHub</a>                 
+                            </div><!--//item-->
 
-  <!-- Navbar -->
-  <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container"> -->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/AI_GAME.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://en.wikipedia.org/wiki/Reinforcement_learning" target="_blank">Artificially Intelligent Agent w/ Reinforcement Learning</a></h3>
+                                    <p class="mb-2">Developed a Q-learning based artificially intelligent game with reinforcement learning techniques. The game involved navigating from the initial state to the goal state by navigating through an 8x8 maze. 
+                                    </p>
+                                    <p><a class="more-link" href="https://github.com/hari047/Artificially-Intelligent-Game" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->   
 
-      <!-- Brand -->
-      <!-- <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-        <strong>MDB</strong>
-      </a> -->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://en.wikipedia.org/wiki/Address_book" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/Address_Book.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/hari047/Address-book-C" target="_blank">C++ Address Book Application</a></h3>
+                                    <p class="summary"> Designed and developed an Address Book application which illustrated various Object-Oriented Programming paradigms. The application allowed users to create, search, display, modify and delete the address book entries made. Data was saved to and extracted from files.
+                                    </p>
+                                    <p><a class="more-link" href="https://github.com/hari047/Address-book-C" target="_blank"><i class="fas fa-external-link-alt"></i> Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item--> 
 
-      <!-- Collapse -->
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://en.wikipedia.org/wiki/Queue_management_system" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/RQM.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/hari047/RQM-Java" target="_blank">Restaurant Queue Management - Java</a></h3>
+                                    <p class="summary"> Developed a GUI application that analyses restaurant queues to help business owners increase operational efficiency by reducing customer wait times. The UI was designed using Java Swing.
+                                       </p>
+                                    <p><a class="more-link" href="https://github.com/hari047/RQM-Java" target="_blank"><i class="fas fa-external-link-alt"></i> Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item--> 
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://en.wikipedia.org/wiki/E-commerce" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/Ecorp.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://hari047.github.io/E-com-Website/" target="_blank">E-commerce Website</a></h3>
+                                    <p class="summary"> Designed a model website to catalogue 100 products a company offers and enable shoppers to add products to their cart and purchase the listed items. Created an archive of order history. The website was realized using HTML5, CSS3, JS. All the data was saved and retrieved through PHP from a MYSQL database at the backend.
+                                    </p>
+                                    <p><a class="more-link" href="https://hari047.github.io/E-com-Website/" target="_blank"><i class="fas fa-external-link-alt"></i> Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item--> 
 
-      <!-- Links -->
-      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                            <a class="btn btn-cta-secondary" href="https://github.com/hari047/">More on Github <i class="fas fa-chevron-right"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">PROFESSIONAL EXPERIENCE</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Mobile Application Developer - (Intern) <br/> <span class="place"><a href="http://www.spurtreetech.com/">SpurTree Technologies - </a></span><span class="year">  Summer 2018</span></h3>
+                                <p>
+                                    • Designed and prototyped a multi-platform application (mobile and desktop) using 80 UI components and 25 native APIs of the Ionic Framework - A web innovation stack comprising of HTML5, CSS3, SAAS, AngularJS and Cordova. 
+                                </p><p>   • Trained on Agile development methodologies. As a member of the agile team, worked on a live project - enhanced a Mall Franchise application with user registration along with automated validation and verification. 
 
-        <!-- Left -->
-        <!-- <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free
-              download</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
-          </li>
-        </ul> -->
+                                </p><p><a href="http://www.spurtreetech.com/">SpurTree</a> is a software development firm with clients like Subaru, Microsoft. 
+                                </p>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 class="title">Self-Directed Learning <br/> <span class="year">  Summer 2019</span></h3>
+                                <p>• Designed a Login Web Application to conceptualize Servlets, Spring Boot, JSP, Java EE </p>
+                                <style>
+                                    * {box-sizing: border-box;}
+                                    .body1 {font-family: Verdana, sans-serif;}
+                                    .mySlides {display: none;}
+                                    .img1 {vertical-align: middle;}
+                                    
+                                    /* Slideshow container */
+                                    .slideshow-container {
+                                    max-width: 1000px;
+                                    position: relative;
+                                    margin: auto;
+                                    }
+                                    
+                                    /* Number text (1/8 etc) */
+                                    .numbertext {
+                                    color: #f2f2f2;
+                                    font-size: 12px;
+                                    padding: 8px 12px;
+                                    position: absolute;
+                                    top: 0;
+                                    }
+                                    
+                                    /* The dots/bullets/indicators */
+                                    .dot {
+                                    height: 15px;
+                                    width: 15px;
+                                    margin: 0 2px;
+                                    background-color: #bbb;
+                                    border-radius: 50%;
+                                    display: inline-block;
+                                    transition: background-color 0.6s ease;
+                                    }
+                                    
+                                    .active {
+                                    background-color: #717171;
+                                    }
+                                    
+                                    /* Fading animation */
+                                    .fade {
+                                    -webkit-animation-name: fade;
+                                    -webkit-animation-duration: 3.5s;
+                                    animation-name: fade;
+                                    animation-duration: 3.5s;
+                                    }
+                                    
+                                    @-webkit-keyframes fade {
+                                    from {opacity: .4} 
+                                    to {opacity: 1}
+                                    }
+                                    
+                                    @keyframes fade {
+                                    from {opacity: .4} 
+                                    to {opacity: 1}
+                                    }
+                                    
+                                    /* On smaller screens, decrease text size */
+                                    @media only screen and (max-width: 300px) {
+                                    .text {font-size: 11px}
+                                    }
+                                    </style>
+                                <div class="slideshow-container">
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">1 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/first.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">2 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/second.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">3 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/fourth.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">4 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/fifth.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">5 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/sixth.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">6 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/seventh.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">7 / 7</div>
+                                        <img class="img1" src="assets/images/projects/Servlet/eighth.jpg" style="width:100%">
+                                    </div>
+                                    
+                                    </div>
+                                    <br>
+                                    
+                                    <div style="text-align:center">
+                                        <span class="dot"></span> 
+                                        <span class="dot"></span> 
+                                        <span class="dot"></span> 
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>
+                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
+                        
+                        <div id="github-graph" class="github-graph">
 
-        <!-- Right -->
-        <!-- <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
-              target="_blank">
-              <i class="fab fa-github mr-2"></i>MDB GitHub
-            </a>
-          </li>
-        </ul>
+                        </div><!--//github-graph-->
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bangalore, India</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:harirangaraj97@gmail.com">harirangaraj97@gmail.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
 
-      </div> -->
-<!--
-    </div>
-  </nav> -->
-  <!-- Navbar -->
+                                </p>
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Programming in <br/>
+                                        C++/Java/Python/SQL  <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Developed many projects with Object-Oriented languages and skilled in coding efficiently on them"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Machine Learning, <br/>
+                                        Artificial Intelligence &amp; 
+                                        Foundations of Data Science<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Created an AI game and a botnet detector using ML. Knowledge of Fundamentals of data science "><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, Javascript &amp; PHP<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Experienced in developing front-end and back-end for Websites and Mobile Applications"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Computer Networks and <br/>
+                                        Network Security<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Knowledge of computer networking principles and concepts. An avid Network Security Specialist"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
-  <!-- Full Page Intro -->
-  <div class="view">
-
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
-      muted loop>
-      <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
-    </video>
-
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-      <!-- Content -->
-      <div class="text-center white-text mx-5 wow fadeIn">
-
-        <h1 class="display-4 mb-4">
-          <strong>Coming Soon!</strong>
-        </h1>
-
-        <!-- Time Counter -->
-        <p id="time-counter" class="border border-light my-4"></p>
-
-
-        <h4 class="mb-4">
-          <strong>Currently working hard to finish the development of this site. </strong>
-        </h4>
-
-        <h4 class="mb-4 d-none d-md-block">
-          <strong>Until then have a look at my Github Profile</strong>
-        </h4>
-
-        <a target="_blank" href="https://github.com/hari047/" class="btn btn-outline-white btn-lg">
-          Hari Prasad Rangaraj
-          <i class="fas fa-graduation-cap ml-2"></i>
-        </a>
-      </div>
-      <!-- Content -->
-
-    </div>
-    <!-- Mask & flexbox options-->
-
-  </div>
-  <!-- Full Page Intro -->
-
-  <!--Footer-->
-  <footer class="page-footer text-center font-small wow fadeIn">
-
-    <!--Call to action-->
-    <div class="pt-4">
-      <!-- <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank"
-        role="button">Download MDB
-        <i class="fas fa-download ml-2"></i>
-      </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
-        free tutorial
-        <i class="fab fa-github mr-3"></i>
-      </a> -->
-    </div>
-    <!--/.Call to action-->
-
-    <hr class="my-4">
-
-    <!-- Social icons -->
-    <div class="pb-4">
-      <a href="https://www.facebook.com/" target="_blank">
-        <i class="fab fa-facebook-f mr-3"></i>
-      </a>
-
-      <a href="https://twitter.com/" target="_blank">
-        <i class="fab fa-twitter mr-3"></i>
-      </a>
-
-      <a href="https://www.youtube.com/" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
-
-      <a href="https://plus.google.com/" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
-
-      <a href="https://dribbble.com/" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
-
-      <a href="https://pinterest.com/" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
-
-      <a href="https://github.com/hari047" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
-
-      <a href="http://codepen.io/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
-      </a>
-    </div>
-    <!-- Social icons -->
-
-    <!--Copyright-->
-    <div class="footer-copyright py-3">
-      © 2019 Copyright
-    </div>
-    <!--/.Copyright-->
-
-  </footer>
- <!--/.Footer-->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-
-  </script>
-
-  <!-- Time Counter -->
-  <script type="text/javascript">
-    // Set the date we're counting down to
-    var countDownDate = new Date();
-    countDownDate.setDate(countDownDate.getDate() + 2);
-
-    // Update the count down every 1 second
-    var x = setInterval(function () {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
-        minutes + "m " + seconds + "s ";
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("time-counter").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-
-  </script>
+                                <div class="item">
+                                    <h3 class="level-title">Data Structures and <br/>
+                                        Algorithms<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Knowledge of implementing most data Structures efficiently and effectively. Good at choosing the right algorithms."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="https://www.linkedin.com/in/hari-rangaraj/"><i class="fab fa-linkedin"></i>More on Linkedin</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Bachelor of Engineering in <br/> Information Science & Engineering</h3>
+                                <h4 class="university"> <a href="http://bmsce.ac.in/"><img src="assets/images/BMS_Logo.jpg"/></a> B.M.S College of Engineering <span class="year">(2015 - 2019)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native or Bilingual Proficiency <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Hindi:</strong></span>
+                                    <span class="level">Full Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Kannada:</strong></span>
+                                    <span class="level">Limited Working Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Tamil:</strong></span>
+                                    <span class="level">Limited Working Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <p><a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/hari_rang" target="_blank"><i class="fab fa-twitter"></i> Twitter Profile</a> </p>
+                        
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=_jWp5RpEjt0">Ben Böhmer - Purple Line</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=5lLVCRmdmMg">Avoure - Aura by Lane 8</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=BgFJtwnWkM8">Above & Beyond - We're All We Need</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=ru0K8uYEZWw">Justin Timberlake - CAN'T STOP THE FEELING</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Achievements and Personal Interests</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="far fa-star"></i>Certified Microsoft Technology Associate for Cloud Fundamentals by the MTA (Microsoft) </li><br/>
+                                <li><i class="far fa-star"></i>Currently working towards certification in CCNA, AWS (Developer Associate) </li>       <br/>  
+                                <li><i class="far fa-star"></i> Participated in the National Symposium “Phase Shift”,<br/> in an Information Security workshop held by Hacker School </li><br/>
+                                <li><i class="far fa-star"></i> Member of the Altair Engineering team that developed custom/user defined subroutines in Visual Studio using C++ and integrated them to ST Compose in Machine Learning lab </li><br/>
+                                <li><i class="far fa-star"></i> Placed First in Respawn at Cosmos 2014, First in VII Heaven at Impressions 2012, gaming tournaments held by Christ Junior College & DPS North. </li><br/>
+                                <li><i class="far fa-star"></i> Second place 2010, 2011 and First in 2012 at the inter house football championship (School) </li>                    
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->        
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+               <!-- Insert Footer Content-->
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+   <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script> 
+    <!-- custom js -->                                    
+    <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 4000); // Change image every 4 seconds
+            }
+     </script>           
 </body>
+</html> 
 
-</html>
