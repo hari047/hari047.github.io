@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: #212529;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,11 +18,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #004085;
 }
 
 a {
-  color: #3AAA64;
+  color: #004085;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,7 +60,7 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
+  background: #007bff;
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
@@ -118,7 +118,7 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
+  background: #dc3545;
   border-top: 10px solid #778492;
 }
 
@@ -132,14 +132,14 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #f1f1f1;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 
 .header .profile-content .desc {
-  color: #778492;
+  color: #f8f9fa;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -148,7 +148,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #e9ecef;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -160,7 +160,7 @@ a.dotted-link:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #fff;
+  color: #004085;
   text-align: center;
 }
 
@@ -184,14 +184,14 @@ a.dotted-link:hover {
 }
 
 .section .section-inner {
-  background: #fff;
+  background: #f8f9fa;
   padding: 30px;
 }
 
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #343a40;
   font-size: 24px;
 }
 
@@ -219,7 +219,7 @@ a.dotted-link:hover {
 }
 
 .latest .item .title a {
-  color: #778492;
+  color: #004085;
 }
 
 .latest .item .title a:hover {
@@ -327,7 +327,7 @@ a.dotted-link:hover {
 }
 
 .projects .item .title a {
-  color: #778492;
+  color: #004085;
 }
 
 .projects .item .title a:hover {
@@ -352,7 +352,7 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .place a {
-  color: #999;
+  color: #004085;
 }
 
 .experience .item .title .place a:hover {
@@ -360,7 +360,7 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .year {
-  color: #999;
+  color: #007bff;
   font-weight: normal;
 }
 
@@ -393,7 +393,7 @@ a.dotted-link:hover {
 /* Info Section */
 .info .svg-inline--fa {
   margin-right: 15px;
-  color: #ccd1d6;
+  color: #dc3545;
 }
 
 .info .svg-inline--fa.fa-envelope-o {
@@ -429,7 +429,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-title .level-label {
-  color: #ccd1d6;
+  color: #004085;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
@@ -445,7 +445,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #0c5460;
 }
 
 .skills .svg-inline--fa {
@@ -512,13 +512,13 @@ a.dotted-link:hover {
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
-  color: #999;
+  color: #dc3545;
   font-weight: 600;
   padding-left: 25px;
 }
 
 .education .item .university .year {
-  color: #b0b7bf;
+  color: #17a2b8;
   font-weight: 500;
 }
 
@@ -528,11 +528,11 @@ a.dotted-link:hover {
 }
 
 .languages .item .title {
-  color: #778492;
+  color: #007bff;
 }
 
 .languages .item .level {
-  color: #999;
+  color: #212529;
 }
 
 .languages .item:last-child {
